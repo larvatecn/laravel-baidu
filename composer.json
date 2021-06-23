@@ -1,0 +1,43 @@
+{
+  "name": "larva/laravel-baidu",
+  "description": "百度 SDK for Laravel",
+  "keywords": [
+    "baidu",
+    "laravel",
+    "sdk"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Larva Team",
+      "email": "support@larva.com.cn"
+    },
+    {
+      "name": "overtrue",
+      "email": "anzhengchao@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
+    "larva/easybaidu": "dev-master"
+  },
+  "require-dev": {
+    "laravel/framework": "^8.5",
+    "friendsofphp/php-cs-fixer": "^2.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "Larva\\Baidu\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Larva\\Baidu\\ServiceProvider"
+      ],
+      "aliases": {
+        "EasyBaidu": "Larva\\Baidu\\Facade"
+      }
+    }
+  }
+}
