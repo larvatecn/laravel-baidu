@@ -44,13 +44,14 @@ return [
     /*
      * 小程序
      */
-    // 'mini_program' => [
-    //     'default' => [
-    //         'app_id'  => env('BAIDU_MINI_PROGRAM_APPID', ''),
-    //         'secret'  => env('BAIDU_MINI_PROGRAM_SECRET', ''),
-    //         'token'   => env('BAIDU_MINI_PROGRAM_TOKEN', ''),
-    //         'aes_key' => env('BAIDU_MINI_PROGRAM_AES_KEY', ''),
-    //     ],
-    // ],
+//    'mini_program' => [
+//        'default' => [
+//            'app_id' => env('BAIDU_MINI_PROGRAM_APPID', ''),
+//            'app_key' => env('BAIDU_MINI_PROGRAM_APPKEY', ''),
+//            'secret' => env('BAIDU_MINI_PROGRAM_SECRET', ''),
+//            'token' => env('BAIDU_MINI_PROGRAM_TOKEN', ''),
+//            'aes_key' => env('BAIDU_MINI_PROGRAM_AES_KEY', ''),
+//        ],
+//    ],
 
 ];
