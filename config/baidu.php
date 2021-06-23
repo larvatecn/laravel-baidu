@@ -42,6 +42,18 @@ return [
     ],
 
     /*
+     * 百家号
+     */
+//    'official_account' => [
+//        'default' => [
+//            'app_id' => env('BAIDU_OFFICIAL_ACCOUNT_APPID', 'your-app-id'),         // AppID
+//            'app_token' => env('BAIDU_OFFICIAL_ACCOUNT_APP_TOKEN', 'your-app-secret'),    // app_token
+//            'token' => env('BAIDU_OFFICIAL_ACCOUNT_TOKEN', 'your-token'),           // Token
+//            'aes_key' => env('BAIDU_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
+//        ],
+//    ],
+
+    /*
      * 小程序
      */
 //    'mini_program' => [
