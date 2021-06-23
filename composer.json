@@ -19,7 +19,7 @@
   ],
   "require": {
     "illuminate/container": "^5.1 || ^6.0 || ^7.0 || ^8.0",
-    "larva/easybaidu": "dev-master"
+    "larva/easybaidu": "^1.0"
   },
   "require-dev": {
     "laravel/framework": "^8.5"
