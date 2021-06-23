@@ -28,13 +28,13 @@ return [
                 // 测试环境
                 'dev' => [
                     'driver' => 'single',
-                    'path' => '/tmp/easybaidu.log',
+                    'path' => storage_path('logs/easybaidu.log'),
                     'level' => 'debug',
                 ],
                 // 生产环境
                 'prod' => [
                     'driver' => 'daily',
-                    'path' => '/tmp/easybaidu.log',
+                    'path' => storage_path('logs/easybaidu.log'),
                     'level' => 'info',
                 ],
             ],
