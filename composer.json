@@ -27,16 +27,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Larva\\Baidu\\": "src/"
+      "Larva\\LaravelBaidu\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Larva\\Baidu\\ServiceProvider"
+        "Larva\\LaravelBaidu\\ServiceProvider"
       ],
       "aliases": {
-        "EasyBaidu": "Larva\\Baidu\\Facade"
+        "EasyBaidu": "Larva\\LaravelBaidu\\Facade"
       }
     }
   }

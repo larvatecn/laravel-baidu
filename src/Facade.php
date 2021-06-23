@@ -1,6 +1,6 @@
 <?php
 
-namespace Larva\Baidu;
+namespace Larva\LaravelBaidu;
 
 use EasyBaidu\MiniProgram\Application;
 use Illuminate\Support\Facades\Facade as LaravelFacade;
