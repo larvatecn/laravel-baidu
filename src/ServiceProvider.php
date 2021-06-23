@@ -3,6 +3,7 @@
 namespace Larva\LaravelBaidu;
 
 use EasyBaidu\MiniProgram\Application as MiniProgram;
+use EasyBaidu\OfficialAccount\Application as OfficialAccount;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -42,6 +43,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         $this->setupConfig();
         $apps = [
+            'official_account' => OfficialAccount::class,
             'mini_program' => MiniProgram::class,
         ];
 

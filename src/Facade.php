@@ -18,7 +18,17 @@ class Facade extends LaravelFacade
      */
     public static function getFacadeAccessor(): string
     {
-        return 'baidu.mini_program';
+        return 'baidu.official_account';
+    }
+
+    /**
+     * 获取百家号实例
+     * @param string $name
+     * @return \EasyBaidu\OfficialAccount\Application
+     */
+    public static function officialAccount(string $name = ''): \EasyBaidu\OfficialAccount\Application
+    {
+        return $name ? app('baidu.official_account.'.$name) : app('baidu.official_account');
     }
 
     /**
